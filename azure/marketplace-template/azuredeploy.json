@@ -20,7 +20,7 @@
        "metadata": {
           "description": "Name of VM-Series VM in the Azure portal"
        },
-       "defaultValue": "VM-Series"
+       "defaultValue": "Wli-VM-Series"
     },
     "vmSize": {
        "type": "string",
