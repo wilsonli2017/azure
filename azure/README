@@ -1,0 +1,37 @@
+Files:
+
+pavm-only-tpl
+----------------
+This template can launch our firewall from a VHD in the storage account. Upload the VHD to storage account and then pass parameters to this
+template to launch the custom VM.
+
+wordpress-sql-nat-template
+-----------------------------
+Prototype template for Wordpress and SQL.
+
+diag-tpl 
+---------------
+Template which works with Linux Diagnostics
+
+marketplace-template
+----------------------
+This is the current template which is published in the marketplace place as of writing (13th Sept 2016)
+
+v2-marketplace-tpl 
+---------------------
+This is the template which has V2 enhancements for marketplace:
+
+  - Resource naming
+  - Bootstrapping
+  - Public IP New or None support
+  - Public IP for Untrust interface
+  - More VM Types
+  - Email-ID
+
+github-lb-tpl
+-------------------
+Github template for L4 and App Gateway Load Balancer:
+
+nat-template
+---------------
+This is the original template which has a NAT Instance in the public facing. It creates NAT instance, Firewall and webservers along with UDRs.

@@ -1,0 +1,42 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "samisra"
+    },
+    "adminPassword": {
+      "value": "Hello!"
+    },
+    "userImageStorageAccountName": {
+      "value": "samisradiagstorage"
+    },
+    "userImageStorageContainerName": {
+      "value": "images"
+    },
+    "userImageVhdName": {
+      "value": "pavm.vhd"
+    },
+    "dnsNameForPublicIP": {
+      "value": "panos-sm-vm-series-fw545"
+    },
+    "vmName": {
+      "value": "panos-vm-series-545"
+    },
+    "osType": {
+      "value": "linux"
+    },
+    "vmSize": {
+      "value": "Standard_D3"
+    },
+    "fromGatewayLogin": {
+      "value": "199.167.55.50/32"
+    },
+    "addNameToConcat": {
+      "value": "OnlyPA-VM"
+    },
+    "IPAddressPrefix": {
+      "value": "192.168"
+    }
+  }
+}
