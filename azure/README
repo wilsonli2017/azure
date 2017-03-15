@@ -35,3 +35,5 @@ Github template for L4 and App Gateway Load Balancer:
 nat-template
 ---------------
 This is the original template which has a NAT Instance in the public facing. It creates NAT instance, Firewall and webservers along with UDRs.
+
+https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fwilsonli2017%2Fazure%2Fmaster%2Fazure%2Fmarketplace-template%2Fazuredeploy.json
