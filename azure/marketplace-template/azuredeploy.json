@@ -152,6 +152,12 @@
       },
       "defaultValue": "https://github.com/PaloAltoNetworks/azure"
     },
+    "baseImageUrl": {
+      "type": "string",
+      "metadata": {
+        "description": "URL to PANW base image storage Url"
+      },
+    },
     "PublicIPNewOrExisting": {
       "type": "string",
       "defaultValue": "new",
@@ -493,6 +499,9 @@
           },
           "sshKey": {
             "value": "[parameters('sshKey')]"
+          },
+          "baseImageUrl": {
+            "value": "[parameters('baseImageUrl')]"
           }
         }
       }
